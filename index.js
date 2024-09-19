@@ -95,5 +95,6 @@ if (answerCount > highScore) {
 $('#startGameButton').css("display", "block");
 $('#maxAddendSlider').val(10);
 $('#sliderSpan').html($('#maxAddendSlider').val());    
+$('#timerSpan').html('0');
 }
 //Will need a function that checks the inputted numbers on keyup and starts game after 1 sec
