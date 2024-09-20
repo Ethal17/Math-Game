@@ -1,7 +1,9 @@
 #mainDiv {
     align-content: center;
     display: block;
-    background-color: lightgrey;
+    background-color: #4d7883
+
+    ;
     border-radius: 10px;
     margin-left: 170px;
     margin-right: 170px;
@@ -14,6 +16,10 @@
 }
 h1 {
     text-align: center;
+    border-bottom: black solid 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
 }
 p {
     text-align: center;
@@ -44,16 +50,26 @@ p {
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
-    margin: auto;
-    
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: #f5ffff;
 }
 .bottomHalfP {
-    margin-top: -10px;
-    margin-bottom: 20px;
+    display: block;
 }
 #startGameButton {
     display: none;
     margin: auto;
     margin-bottom: 10px;
     font-weight: bold;
+}
+.statisticsDiv {
+    display: block;
+    border-top: black solid 5px;
+}
+.miniMathDiv {
+    display: inline;
+}
+body {
+    background-image: url(img/c751eafb-78d0-4bf6-a270-1d8bab2a55a7.jpg);
 }

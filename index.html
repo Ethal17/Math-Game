@@ -17,15 +17,19 @@
     <div id="mainDiv">
         <h1>Welcome to the Ten Second Math Game!</h1>
       <div id="mathProblemDiv">
-        <p id="mathProblem">Math Problem</p>
-        <p>Time Left: <span id="timerSpan"></span></p>
+        <div id="miniMathDiv">
+          <p class="mathProblemP" id="mathProblem">Math Problem</p>
+          <p class="mathProblemP">Time Left: <span id="timerSpan"></span></p>
+        </div>
+        <div class="statisticsDiv">
+        <p class="bottomHalfP">Score: <span id="scoreSpan"></span></p>
+          <p class="bottomHalfP">High Score: <span id="highScoreSpan"></span></p>
+          <p class="bottomHalfP">Difficulty: <span id="difficultySpan"></span></p>
+        </div>
       </div>
       <input id="answerInput" placeholder="Input Answer">
       <p id="sliderP">Choose a max addend: <span id="sliderSpan">50</span></p>
           <input type="range" min="10" max="50" value="10" class="slider" id="maxAddendSlider">
-          <p class="bottomHalfP">Score: <span id="scoreSpan"></span></p>
-          <p class="bottomHalfP">High Score: <span id="highScoreSpan"></span></p>
-          <p class="bottomHalfP">Difficulty: <span id="difficultySpan"></span></p>
           <button id="startGameButton" onclick="startGame()">Play Again?</button>
         </div>
     <script src="index.js"></script>
